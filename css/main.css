@@ -1641,7 +1641,8 @@ header {
     .wrap {
       margin: 0 auto;
       width: 50%;
-      margin-bottom: 30px; } }
+      margin-bottom: 30px;
+      padding-left: 15px; } }
   .wrap:before {
     content: attr(data-title);
     display: block;
