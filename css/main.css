@@ -1456,9 +1456,6 @@ header {
   background-image: url(../images/background.jpg);
   background-position: center;
   background-size: cover; }
-  @media (max-width: 768px) {
-    header {
-      padding: 35px 10px; } }
 
 .logo {
   width: 75px;
@@ -1628,8 +1625,8 @@ header {
   position: relative; }
   @media (max-width: 600px) {
     .wrap {
-      margin: 0;
-      width: 49%;
+      margin: 0 auto;
+      width: 50%;
       margin-bottom: 30px; } }
   .wrap:before {
     content: attr(data-title);
@@ -1671,7 +1668,25 @@ nav {
         color: #fff; }
   @media (max-width: 1000px) {
     nav li a {
-      padding: 50px 20px 20px 20px; } }
+      padding: 50px 10px 10px 10px;
+      width: 90px; }
+    nav li .ico {
+      top: 10px;
+      left: 30px; } }
+  @media (max-width: 550px) {
+    nav ul {
+      height: 60px;
+      overflow: hidden; }
+    nav li .hide-xs {
+      display: none; }
+    nav li a {
+      width: 50px;
+      height: 60px;
+      padding: 0;
+      margin: 0; }
+    nav li .ico {
+      left: 10px;
+      top: 15px; } }
 
 nav ul {
   text-align: center; }
