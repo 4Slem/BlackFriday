@@ -1558,7 +1558,7 @@ header {
       width: 370px; } }
   @media (max-width: 500px) {
     .wrapper {
-      width: 310px; } }
+      display: none; } }
 
 .header-main .black-friday-left {
   height: 205px;
@@ -1587,11 +1587,6 @@ header {
     .header-main .black-friday-center {
       font-size: 32px;
       width: 240px; } }
-  @media (max-width: 500px) {
-    .header-main .black-friday-center {
-      font-size: 22px;
-      line-height: 95px;
-      width: 150px; } }
   .header-main .black-friday-center .small-text {
     font-size: 32px;
     font-weight: normal; }
@@ -1625,7 +1620,7 @@ header {
   width: 522px; }
   @media (max-width: 600px) {
     .timer {
-      width: 320px; } }
+      width: 270px; } }
 
 .wrap {
   float: left;
@@ -1737,7 +1732,8 @@ h1 {
       font-size: 32px; } }
   @media (max-width: 500px) {
     h1 {
-      font-size: 24px; } }
+      font-size: 28px;
+      margin: 50px; } }
 
 h2 {
   font-size: 51px;
