@@ -1568,6 +1568,9 @@ header {
   @media (max-width: 600px) {
     .wrapper {
       width: 370px; } }
+  @media (max-width: 500px) {
+    .wrapper {
+      width: 310px; } }
 
 .header-main .black-friday-left {
   height: 205px;
@@ -1596,12 +1599,23 @@ header {
     .header-main .black-friday-center {
       font-size: 32px;
       width: 240px; } }
+  @media (max-width: 500px) {
+    .header-main .black-friday-center {
+      font-size: 22px;
+      line-height: 95px;
+      width: 150px; } }
   .header-main .black-friday-center .small-text {
     font-size: 32px;
     font-weight: normal; }
+    @media (max-width: 800px) {
+      .header-main .black-friday-center .small-text {
+        font-size: 28px; } }
     @media (max-width: 600px) {
       .header-main .black-friday-center .small-text {
         font-size: 20px; } }
+    @media (max-width: 500px) {
+      .header-main .black-friday-center .small-text {
+        font-size: 14px; } }
 
 .header-main .black-friday-right {
   height: 205px;
@@ -1614,13 +1628,16 @@ header {
   color: #fff;
   text-align: center;
   margin: 60px; }
+  @media (max-width: 600px) {
+    .header-main p {
+      margin: 20px 10px; } }
 
 .timer {
   margin: 0 auto;
   width: 522px; }
   @media (max-width: 600px) {
     .timer {
-      width: 400px; } }
+      width: 320px; } }
 
 .wrap {
   float: left;
@@ -1628,7 +1645,9 @@ header {
   position: relative; }
   @media (max-width: 600px) {
     .wrap {
-      margin: 0; } }
+      margin: 0;
+      width: 49%;
+      margin-bottom: 30px; } }
   .wrap:before {
     content: attr(data-title);
     display: block;
@@ -1728,6 +1747,9 @@ h1 {
   @media (max-width: 600px) {
     h1 {
       font-size: 32px; } }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 24px; } }
 
 h2 {
   font-size: 51px;
@@ -1782,7 +1804,7 @@ h2 {
   padding: 0px 0 100px 0; }
   @media (max-width: 768px) {
     .flash-unlock {
-      padding: 20px; } }
+      padding: 10px; } }
 
 .item {
   box-sizing: border-box;
@@ -1868,15 +1890,16 @@ img {
   @media (max-width: 768px) {
     .section-header {
       padding: 40px 0;
-      width: 440px; }
+      width: 100%; }
       .section-header h2 {
+        box-sizing: border-box;
+        width: 100%;
         font-size: 32px;
         line-height: 60px;
-        margin-right: 20px; }
+        text-align: center;
+        margin: 0 auto; }
       .section-header .labe {
-        font-size: 32px;
-        width: 130px;
-        line-height: 50px; } }
+        display: none; } }
 
 .table-lamps {
   box-sizing: border-box;
