@@ -5,12 +5,13 @@ $(document).ready(function () {
 		autoStart: false,
 		callbacks: {
 			stop: function () {
-				$(".message").html("df");
+				$(".black-friday-show").hide();
+				$(".black-friday-hide").show();
 			}
 		}
 	});
 
-	clock.setTime(4000);
+	clock.setTime(100); /*Set Time*/
 	clock.setCountdown(true);
 	clock.start();
 	/*************TIMER END**************/
